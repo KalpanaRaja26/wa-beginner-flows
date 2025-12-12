@@ -1,3 +1,5 @@
+from prefect import flow, task
+
 @task
 def step1():
   print("Step 1 complete")
